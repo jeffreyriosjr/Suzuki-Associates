@@ -22,16 +22,17 @@
 ?>
 
 <main id="primary" class="site-main">
-
+<div class="container">
+    <div class="row">
+        <h1>Hello JEff!</h1>
+    </div>    
+</div>
 		<?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) :
 				?>
-				<header>
-                    hello jeffrey
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
+				
 				<?php
 			endif;
 
