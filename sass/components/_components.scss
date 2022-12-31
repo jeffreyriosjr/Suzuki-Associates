@@ -2,6 +2,16 @@
 --------------------------------------------- */
 @import "navigation/navigation";
 
+/* Footer
+--------------------------------------------- */
+@import "content/footer";
+
+/* Front-Page
+--------------------------------------------- */
+@import "content/front-page";
+
+
+
 /* Posts and pages
 --------------------------------------------- */
 @import "content/posts-and-pages";
@@ -9,6 +19,22 @@
 /* Comments
 --------------------------------------------- */
 @import "comments/comments";
+
+/* Front Page
+--------------------------------------------- */
+@import "content/front-page";
+
+/* About  
+--------------------------------------------- */
+@import "content/about-page";
+
+/* review-and-blogs 
+--------------------------------------------- */
+@import "content/review-and-blogs";
+
+/* Contact Us
+--------------------------------------------- */
+@import "content/contact-page";
 
 /* Widgets
 --------------------------------------------- */

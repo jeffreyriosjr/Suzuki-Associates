@@ -13,54 +13,19 @@
 
 
  get_header();
- $blog_args = array(
-    'post_type' => 'post',
-    'post_status' => 'publish',
-    'posts_per_page'=> 2,
-    'order'=>'DESC',
-);
+ 
 ?>
 
 <main id="primary" class="site-main">
-<div class="container">
-    <div class="row">
-        <h1>Hello JEff!</h1>
-    </div>    
+<div class="container opening-page">
+<a class="btn" href="http://suzuki-associates.local/home" role="button"><img class="main-logo" src="<?php echo get_template_directory_uri(); ?>/images/main-logo.png"></a>
+
 </div>
-		<?php
-		if ( have_posts() ) :
-
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				
-				<?php
-			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
+		
 
 	</main><!-- #main -->
 
 
 <?php
-		get_sidebar();
-		get_footer();
+		// get_sidebar();
+		// get_footer();
