@@ -730,6 +730,10 @@ textarea {
 	width: auto;
 }
 
+.main-navigation {
+	display: none;
+}
+
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -776,6 +780,10 @@ textarea {
 .opening-page .main-logo {
 	height: 750px;
 	width: auto;
+}
+
+.main-navigation {
+	display: none;
 }
 
 /* About  
