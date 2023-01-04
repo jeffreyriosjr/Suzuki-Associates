@@ -1,0 +1,16 @@
+.testing {
+    width: auto;
+    margin: 1em;
+}
+.main-navigation ul {
+    display: flex !important;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    list-style: none;
+    margin: 1em;
+
+     a {
+        margin: 1em;
+        color: black;
+    }
+}

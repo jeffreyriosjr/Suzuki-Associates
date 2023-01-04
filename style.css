@@ -632,10 +632,7 @@ textarea {
 }
 
 .main-navigation ul {
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	color: black;
 }
 
 .main-navigation ul ul {
@@ -674,6 +671,10 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+}
+
+.the-logo {
+	width: 300px;
 }
 
 /* Small menu. */
@@ -720,6 +721,26 @@ textarea {
 --------------------------------------------- */
 /* Front-Page
 --------------------------------------------- */
+.testing {
+	width: auto;
+	margin: 1em;
+}
+
+.main-navigation ul {
+	display: flex !important;
+	flex-direction: row-reverse;
+	text-decoration: none;
+	list-style: none;
+	margin: 1em;
+}
+
+.main-navigation ul a {
+	margin: 1em;
+	color: black;
+}
+
+/* Personal Page
+--------------------------------------------- */
 .opening-page {
 	display: flex;
 	justify-content: center;
@@ -728,10 +749,6 @@ textarea {
 .opening-page .main-logo {
 	height: 750px;
 	width: auto;
-}
-
-.main-navigation {
-	display: none;
 }
 
 /* Posts and pages
@@ -780,10 +797,6 @@ textarea {
 .opening-page .main-logo {
 	height: 750px;
 	width: auto;
-}
-
-.main-navigation {
-	display: none;
 }
 
 /* About  
