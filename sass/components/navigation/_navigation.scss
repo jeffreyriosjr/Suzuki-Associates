@@ -110,3 +110,8 @@
 		flex: 1 0 50%;
 	}
 }
+@media screen and (max-width: 550px) {
+	.main-navigation {
+		display: none;
+	}
+}
