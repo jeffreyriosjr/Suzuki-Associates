@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Homepage Template
+ * Template name: Front-Page Template
  *
  *
  *
@@ -17,9 +17,7 @@ get_header();
 <div class="container opening-page">
 <a class="btn" href="http://suzuki-associates.local/home" role="button"><img class="main-logo" src="<?php echo get_template_directory_uri(); ?>/images/main-logo.png"></a>
 </div>
-
-
-	</main><!-- #main -->
+</main><!-- #main -->
 
 
 <?php
