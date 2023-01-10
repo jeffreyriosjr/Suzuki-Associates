@@ -60,6 +60,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -626,100 +627,110 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
-.main-navigation {
-	display: block;
-	width: 100%;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.main-navigation ul {
-	color: black;
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
 }
 
-.main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
-	position: absolute;
-	top: 100%;
-	left: -999em;
-	z-index: 99999;
+li {
+	list-style: none;
 }
 
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
-}
-
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	display: block;
-	left: auto;
-}
-
-.main-navigation ul ul a {
-	width: 200px;
-}
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-	left: auto;
-}
-
-.main-navigation li {
-	position: relative;
-}
-
-.main-navigation a {
-	display: block;
+a {
 	text-decoration: none;
 }
 
-.the-logo {
-	width: 300px;
+.header {
+	border-bottom: 1px solid #E2E8F0;
 }
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
-}
-
-@media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation ul {
-		display: flex;
-	}
-}
-
-.site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
-.post-navigation {
-	margin: 0 0 1.5em;
-}
-
-.comment-navigation .nav-links,
-.posts-navigation .nav-links,
-.post-navigation .nav-links {
+.navbar {
 	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 3rem;
+	margin: 0rem;
 }
 
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
-	flex: 1 0 50%;
+.hamburger {
+	display: none;
 }
 
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
-	text-align: end;
-	flex: 1 0 50%;
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #101010;
 }
 
-@media screen and (max-width: 550px) {
-	.main-navigation {
-		display: none;
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	margin-left: 5rem;
+}
+
+.nav-link {
+	color: black !important;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #475569;
+}
+
+.nav-link:hover {
+	color: #482ff7;
+}
+
+.nav-logo {
+	font-size: 2.1rem;
+	font-weight: 500;
+	color: #482ff7;
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 5rem;
+		flex-direction: column;
+		background-color: #fff;
+		width: 100%;
+		border-radius: 10px;
+		text-align: center;
+		transition: 0.3s;
+		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+	}
+	.nav-menu.active {
+		position: relative;
+		left: 0;
+	}
+	.nav-item {
+		margin: 2.5rem 0;
+	}
+	.hamburger {
+		display: block;
+		cursor: pointer;
+	}
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
 	}
 }
 
