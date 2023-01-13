@@ -16,7 +16,7 @@
 
 get_header();
 ?>
-<div id="page" class="contianer">
+<div id="home" class="contianer">
 
 <?php
 		if ( have_posts() ) :
