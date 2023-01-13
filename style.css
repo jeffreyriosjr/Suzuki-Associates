@@ -764,7 +764,7 @@ a {
 }
 
 .opening-page .main-logo {
-	height: 750px;
+	height: 550px;
 	width: auto;
 }
 
@@ -812,7 +812,7 @@ a {
 }
 
 .opening-page .main-logo {
-	height: 750px;
+	height: 550px;
 	width: auto;
 }
 
@@ -822,6 +822,10 @@ a {
 --------------------------------------------- */
 /* Contact Us
 --------------------------------------------- */
+* {
+	width: auto;
+}
+
 /* Widgets
 --------------------------------------------- */
 .widget {
