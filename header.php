@@ -35,19 +35,19 @@
         <nav class="navbar">
             <ul class="nav-menu">
             <li class="nav-item">
-                    <a href="http://suzuki-associates.local/home/" class="nav-link">Home</a>
+                    <a href="https://suzukiassociates.flywheelsites.com/home/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/services/" class="nav-link">Services</a>
+                    <a href="https://suzukiassociates.flywheelsites.com/services/" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/review-blogs/" class="nav-link">Blog</a>
+                    <a href="https://suzukiassociates.flywheelsites.com/blog/" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/about/" class="nav-link">About</a>
+                    <a href="https://suzukiassociates.flywheelsites.com/about/" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/contact/" class="nav-link">Contact</a>
+                    <a href="https://suzukiassociates.flywheelsites.com/contact/" class="nav-link">Contact</a>
                 </li>
             </ul>
             <div class="hamburger">
