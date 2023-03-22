@@ -764,8 +764,18 @@ a {
 }
 
 .opening-page .main-logo {
-	height: 550px;
-	width: auto;
+	height: 100%;
+	width: 100%;
+	padding-top: 15em;
+}
+
+@media screen and (max-width: 450px) {
+	.opening-page .main-logo {
+		height: auto;
+		width: 75%;
+		margin-top: 10em;
+		padding-top: 0;
+	}
 }
 
 /* Posts and pages
@@ -812,8 +822,18 @@ a {
 }
 
 .opening-page .main-logo {
-	height: 550px;
-	width: auto;
+	height: 100%;
+	width: 100%;
+	padding-top: 15em;
+}
+
+@media screen and (max-width: 450px) {
+	.opening-page .main-logo {
+		height: auto;
+		width: 75%;
+		margin-top: 10em;
+		padding-top: 0;
+	}
 }
 
 /* About  
