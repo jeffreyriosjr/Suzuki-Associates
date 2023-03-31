@@ -29,10 +29,11 @@
 <?php wp_body_open(); ?>
 <div id="page" class="container">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'suzuki-associates' ); ?></a>
-
-
 	<header class="header"id="page-id">
         <nav class="navbar">
+            <div>
+                <img class="nav-logo"src="http://suzuki-associates.local/wp-content/uploads/2023/03/11-e1679508581275.png" alt="">
+            </div>
             <ul class="nav-menu">
             <li class="nav-item">
                     <a href="http://suzuki-associates.local/home/" class="nav-link">Home</a>
