@@ -27,7 +27,7 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="container">
+<div id="page" class="">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'suzuki-associates' ); ?></a>
 	<header class="header"id="page-id">
         <nav class="navbar">
@@ -39,16 +39,16 @@
                     <a href="http://suzuki-associates.local/home/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/home/" class="nav-link">Services</a>
+                    <a href="http://suzuki-associates.local/services/" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/home/" class="nav-link">Blog</a>
+                    <a href="http://suzuki-associates.local/blog/" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/home/" class="nav-link">About</a>
+                    <a href="http://suzuki-associates.local/about/" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://suzuki-associates.local/home/" class="nav-link">Contact</a>
+                    <a href="http://suzuki-associates.local/contact/" class="nav-link">Contact</a>
                 </li>
             </ul>
             <div class="hamburger">
