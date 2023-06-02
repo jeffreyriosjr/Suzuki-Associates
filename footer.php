@@ -10,14 +10,14 @@
  */
 
 ?>
-<footer class="text-center text-lg-start bg-light text-muted the-footer">
+<footer class="text-center text-lg-start text-muted the-footer">
   <!-- Section: Links  -->
   <section class="main-footer">
-    <div class="container text-center text-md-start">
+    <div class="container-fluid text-center text-md-start">
       <div class="row mt-3 mb-3 text-center d-flex justify-content-center">
         <!-- Grid column -->
         <div class="col footer-logo">
-          <img class="nav-logo" src="http://suzuki-associates.local/wp-content/uploads/2023/03/11-e1679508581275.png"
+          <img class="nav-logo" src="http://suzuki-associates.local/wp-content/uploads/2023/06/Untitled-Logo.png"
             alt="">
         </div>
       </div>
@@ -44,10 +44,6 @@
       <li class="icon-links">
         <a href="">
           <i class="fab fa-linkedin"></i></a>
-      </li>
-      <li class="icon-links">
-        <a href="">
-          <i class="fab fa-google"></i></a>
       </li>
     </ul>
   </div>
