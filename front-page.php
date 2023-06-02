@@ -15,7 +15,7 @@ get_header();
 
 <main id="primary" class="site-main">
 <div class="container opening-page">
-<a class="btn" href="http://suzuki-associates.local/home/" role="button"><img class="main-logo" src="<?php echo get_template_directory_uri(); ?>/images/11.png"></a>
+<a class="btn" href="http://suzuki-associates.local/home/" role="button"><img class="main-logo" src="<?php echo get_template_directory_uri(); ?>/images/new-new.png"></a>
 </div>
 </main><!-- #main -->
 

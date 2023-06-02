@@ -736,15 +736,7 @@ a {
 	margin-top: 5em;
 	display: flex;
 	justify-content: center;
-	background-image: url("http://suzuki-associates.local/wp-content/uploads/2023/03/DRONE.mp4");
 	align-items: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.the-footer .footer-pic {
-	width: auto;
 }
 
 .the-footer .social-icons {
