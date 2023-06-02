@@ -711,6 +711,7 @@ a {
 	.nav-menu.active {
 		position: relative;
 		left: 0;
+		display: contents;
 	}
 	.nav-item {
 		margin: 2.5rem 0;
@@ -775,7 +776,6 @@ a {
 @media all and (max-width: 678px) {
 	.icon-section li {
 		margin: 0% 8% 0% 5%;
-		width: 12%;
 	}
 }
 
@@ -913,6 +913,7 @@ a {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		margin-top: 0;
 	}
 	.the-footer .social-icons {
 		margin-bottom: 0;

@@ -14,7 +14,7 @@
   <!-- Section: Links  -->
   <section class="main-footer">
     <div class="container-fluid text-center text-md-start">
-      <div class="row mt-3 mb-3 text-center d-flex justify-content-center">
+      <div class="text-center d-flex justify-content-center">
         <!-- Grid column -->
         <div class="col footer-logo">
           <img class="nav-logo" src="http://suzuki-associates.local/wp-content/uploads/2023/06/Untitled-Logo.png"
