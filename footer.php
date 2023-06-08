@@ -30,19 +30,19 @@
   <div class="text-center" style="color: white;font-size: 14px; margin-top: 2em;">
     <ul class="icon-section">
       <li class="icon-links">
-        <a href="">
+        <a href="https://twitter.com/SA_InsuranceInc">
           <i class="fab fa-facebook"></i></a>
       </li>
       <li class="icon-links">
-        <a href="">
+        <a href="https://twitter.com/SA_InsuranceInc">
           <i class="fab fa-twitter"></i></a>
       </li>
       <li class="icon-links">
-        <a href="">
+        <a href="https://twitter.com/SA_InsuranceInc">
           <i class="fab fa-instagram"></i></a>
       </li>
       <li class="icon-links">
-        <a href="">
+        <a href="https://www.linkedin.com/in/jason-suzuki-3828">
           <i class="fab fa-linkedin"></i></a>
       </li>
     </ul>
