@@ -668,7 +668,7 @@ a {
 	margin: 5px auto;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	background-color: #101010;
+	background-color: #482ff7;
 }
 
 .nav-menu {
@@ -682,10 +682,10 @@ a {
 }
 
 .nav-link {
-	color: black !important;
-	font-size: 1.8rem;
-	font-weight: 400;
-	color: #475569;
+	color: #163383 !important;
+	font-size: 2.3em;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 .nav-link:hover {
@@ -693,7 +693,7 @@ a {
 }
 
 .nav-logo {
-	width: 8em;
+	width: 10em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -782,7 +782,7 @@ a {
 
 .icon-section li a .fab {
 	font-size: 40px;
-	color: #131717 !important;
+	color: #163383 !important;
 	line-height: 80px;
 	transition: 0.5s;
 }
@@ -819,7 +819,7 @@ a {
 	left: -20px;
 	height: 100%;
 	width: 20px;
-	background-color: #0c1416;
+	background-color: #163383;
 	transition: 0.5s;
 	transform: rotate(0deg) skewY(-45deg);
 }

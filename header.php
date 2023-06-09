@@ -32,7 +32,7 @@
 	<header class="header"id="page-id">
         <nav class="container-fluid navbar">
             <div>
-                <img class="nav-logo"src="http://suzuki-associates.local/wp-content/uploads/2023/06/Untitled-Logo.png" alt="">
+                <img class="nav-logo"src="http://suzuki-associates.local/wp-content/uploads/2023/06/Untitled-Logo-1-1.png" alt="header logo">
             </div>
             <ul class="nav-menu">
             <li class="nav-item">

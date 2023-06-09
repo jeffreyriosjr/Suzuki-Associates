@@ -17,8 +17,8 @@
       <div class="text-center d-flex justify-content-center">
         <!-- Grid column -->
         <div class="col footer-logo">
-          <img class="nav-logo" src="http://suzuki-associates.local/wp-content/uploads/2023/06/Untitled-Logo.png"
-            alt="">
+          <img class="nav-logo" src="http://suzuki-associates.local/wp-content/uploads/2023/06/Untitled-Logo-1-1.png"
+            alt="footer logo">
         </div>
       </div>
 
@@ -30,7 +30,7 @@
   <div class="text-center" style="color: white;font-size: 14px; margin-top: 2em;">
     <ul class="icon-section">
       <li class="icon-links">
-        <a href="https://twitter.com/SA_InsuranceInc">
+        <a href="https://www.facebook.com/SuzukiAssociatesInc/">
           <i class="fab fa-facebook"></i></a>
       </li>
       <li class="icon-links">
@@ -38,7 +38,7 @@
           <i class="fab fa-twitter"></i></a>
       </li>
       <li class="icon-links">
-        <a href="https://twitter.com/SA_InsuranceInc">
+        <a href="https://www.instagram.com/suzuki_associates/">
           <i class="fab fa-instagram"></i></a>
       </li>
       <li class="icon-links">
