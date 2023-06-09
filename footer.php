@@ -42,7 +42,7 @@
           <i class="fab fa-instagram"></i></a>
       </li>
       <li class="icon-links">
-        <a href="https://www.linkedin.com/in/jason-suzuki-3828">
+        <a href="https://www.linkedin.com/in/jason-suzuki-3828a11b4/">
           <i class="fab fa-linkedin"></i></a>
       </li>
     </ul>
