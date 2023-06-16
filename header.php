@@ -47,6 +47,9 @@
                 <li class="nav-item">
                     <a href="http://suzuki-associates.local/benefits/" class="nav-link">Benefits</a>
                 </li>
+                <li class="nav-item">
+                    <a href="http://suzuki-associates.local/blog/" class="nav-link">Blogs</a>
+                </li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
