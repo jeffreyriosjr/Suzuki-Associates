@@ -10,6 +10,89 @@
  */
 
 ?>
+
+<div class="container-fluid">
+
+  <!-- Footer -->
+  <footer class="text-center text-black m-2">
+    <!-- Section: Links  -->
+    <section class="resources" style="border: darkblue; border-width: 2px; border-style: solid;">
+      <div class="container-fluid text-center main-resources" style="font-size: 16px;">
+        <!-- Grid row -->
+        <div class="row mt-3 d-flex flex-direction-row justify-content-center">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Links</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+            <p>
+              <a href="http://suzuki-associates.local/home/" class="text-black">Home</a>
+            </p>
+            <p>
+              <a href="http://suzuki-associates.local/contact/" class="text-black">Contact</a>
+            </p>
+            <p>
+              <a href="http://suzuki-associates.local/about/" class="text-black">About</a>
+            </p>
+            <p>
+              <a href="http://suzuki-associates.local/benefits/" class="text-black">Benefits</a>
+            </p>
+            <p>
+              <a href="http://suzuki-associates.local/blog/" class="text-black">Blogs</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-5">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Resources</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+            <p>
+              <a href="#!" class="text-black">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-black">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-black">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-black">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 mt-5">
+      © 2023 Copyright:
+      <p>
+        <a href="https://jeffreyriosjr.info/" class="text-black">jeffreyriosjr.info</a>
+      </p>
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
 <footer class="text-center text-lg-start text-muted the-footer">
   <!-- Section: Links  -->
   <section class="main-footer">
